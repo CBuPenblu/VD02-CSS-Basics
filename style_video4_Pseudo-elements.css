@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+}
+
+h1::first-letter{
+    color: #FF4500;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h1::before{
+    content: 'City ';
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h1::after{
+    content: 'City ';
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
